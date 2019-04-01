@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/nvm
+/logs
+
+!/dist
+/dist/*
+!/dist/build
+
+npm-debug.log*
+
