@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 
 import { Layout as  LayoutAntd, Spin, Button, PageHeader} from 'antd';
 
@@ -18,7 +18,7 @@ class Layout extends Component {
                     </Header>
                     <Content style={{ background: '#fff', padding: 0, minHeight: 500}}>{ this.props.children }</Content>
                     <Footer style={{ textAlign: 'center'}}>
-                        support@macte.pro
+                        Bug Reports & Feature Requests <a target="_blank" href="https://github.com/leonvv/bitrix24-entity-editor/issues">here</a>
                     </Footer>
                 </Spin>
             </LayoutAntd>
