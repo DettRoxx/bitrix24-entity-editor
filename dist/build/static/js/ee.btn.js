@@ -4,6 +4,6 @@ window.onload = function(){
 	var head = document.getElementsByTagName('head')[0];
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = 'https://cdn.jsdelivr.net/gh/leonvv/bitrix24-entity-editor@latest/dist/build/static/js/ee.btn.js';
+	script.src = 'https://cdn.jsdelivr.net/gh/leonvv/bitrix24-entity-editor@latest/dist/build/static/js/ee.min.js';
 	head.appendChild(script);
 }
