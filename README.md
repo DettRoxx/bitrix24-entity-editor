@@ -9,7 +9,7 @@ In your Bitrix 24 application, after BX24 API initialization:
 ```
 must be inserted this code:
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/leonvv/bitrix24-entity-editor@latest/dist/build/static/js/ee.btn.js"></script>`
+<script src="https://cdn.jsdelivr.net/gh/leonvv/bitrix24-entity-editor@latest/dist/build/static/js/ee.btn.js"></script>
 ```
 # Demo
 **demo portal**:  https://eeditor.bitrix24.ru/marketplace/app/10/
